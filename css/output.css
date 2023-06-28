@@ -584,10 +584,6 @@ video {
   border-top-width: 0.5rem;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
 .border-t-blue {
   --tw-border-opacity: 1;
   border-top-color: hsl(212 86% 64% / var(--tw-border-opacity));
@@ -684,132 +680,54 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:ml-1 {
-    margin-left: 0.25rem;
-  }
-
-  .sm\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .sm\:ml-56 {
-    margin-left: 14rem;
+  .sm\:-mt-\[265px\] {
+    margin-top: -265px;
   }
 
   .sm\:ml-60 {
     margin-left: 15rem;
   }
 
-  .sm\:mt-5 {
-    margin-top: 1.25rem;
+  .sm\:mt-12 {
+    margin-top: 3rem;
   }
 
   .sm\:mt-8 {
     margin-top: 2rem;
   }
 
-  .sm\:-mt-40 {
-    margin-top: -10rem;
-  }
-
-  .sm\:-mt-60 {
-    margin-top: -15rem;
-  }
-
-  .sm\:-mt-72 {
-    margin-top: -18rem;
-  }
-
-  .sm\:-mt-64 {
-    margin-top: -16rem;
-  }
-
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .sm\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .sm\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .sm\:-mt-\[265px\] {
-    margin-top: -265px;
-  }
-
-  .sm\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:grid {
     display: grid;
-  }
-
-  .sm\:w-\[375px\] {
-    width: 375px;
   }
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
-  .sm\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .sm\:gap-5 {
     gap: 1.25rem;
-  }
-
-  .sm\:gap-3 {
-    gap: 0.75rem;
   }
 
   .sm\:place-self-start {
     place-self: start;
   }
 
-  .sm\:self-start {
-    align-self: flex-start;
-  }
-
-  .sm\:self-center {
-    align-self: center;
-  }
-
-  .sm\:px-72 {
-    padding-left: 18rem;
-    padding-right: 18rem;
-  }
-
-  .sm\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
+  .sm\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .sm\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
   }
-
-  .sm\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .lg\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -832,22 +750,6 @@ video {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
-  }
-
-  .lg\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .lg\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
-  .lg\:mb-12 {
-    margin-bottom: 3rem;
   }
 
   .lg\:flex {
@@ -900,14 +802,14 @@ video {
     padding-right: 10rem;
   }
 
-  .lg\:px-80 {
-    padding-left: 20rem;
-    padding-right: 20rem;
-  }
-
   .lg\:px-72 {
     padding-left: 18rem;
     padding-right: 18rem;
+  }
+
+  .lg\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 
   .lg\:text-2xl {
@@ -915,19 +817,14 @@ video {
     line-height: 2rem;
   }
 
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:tracking-wide {
@@ -944,56 +841,13 @@ video {
     margin-right: 235px;
   }
 
-  .\32xl\:px-96 {
-    padding-left: 24rem;
-    padding-right: 24rem;
-  }
-
-  .\32xl\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
-  .\32xl\:px-64 {
-    padding-left: 16rem;
-    padding-right: 16rem;
-  }
-
-  .\32xl\:px-72 {
-    padding-left: 18rem;
-    padding-right: 18rem;
-  }
-
-  .\32xl\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .\32xl\:px-36 {
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-
-  .\32xl\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
   .\32xl\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
   }
 
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .\32xl\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .\32xl\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\32xl\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 }
