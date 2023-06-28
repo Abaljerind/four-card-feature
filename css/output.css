@@ -691,6 +691,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-64 {
+    margin-left: 16rem;
+  }
+
+  .lg\:ml-72 {
+    margin-left: 18rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -725,6 +733,10 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
+  }
+
+  .lg\:w-\[375px\] {
+    width: 375px;
   }
 
   .lg\:flex-grow {
@@ -777,6 +789,16 @@ video {
     padding-right: 15rem;
   }
 
+  .lg\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -795,6 +817,11 @@ video {
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
